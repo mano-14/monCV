@@ -1,3 +1,13 @@
 p {
-    background-color:cornflowerblue
+    border: 2px solid black ;
+    padding: 5px;
+    padding-top : 10px;
+    margin: 10px;
+    margin-left : 30px;
+    background-color: aquamarine;
+    width: 70%;
+    margin: auto;
+    
+
+
 }
