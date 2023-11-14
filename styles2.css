@@ -1,0 +1,109 @@
+#droite {
+    
+    
+    
+    border: 2px solid black ;
+    padding: 20px;
+    padding-top : 1%;
+    margin-right: 2%;
+   
+    height: auto;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+   
+    color: cadetblue
+    
+
+}
+section {
+    
+    border: 2px solid black ;
+    padding: 20px;
+    padding-top : 15px;
+    
+    color: white;
+    
+    height: auto;
+    width: 40%;
+    background-color: cadetblue;
+    margin-left: 2%;
+   
+
+
+}
+main {
+    
+    display: flex;
+    flex-direction: row;
+}
+body {
+    height: 100%;
+    
+
+}
+html {
+    height: 100%;
+}
+header {
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: cadetblue;
+    
+    
+}
+
+.point {
+    color: black
+}
+h1 {
+    
+    text-align: center;
+    font-size: 5em;
+}
+
+.shape {
+        float: center;
+        width: auto;
+        height: 10px;
+        shape-outside: inset(100px 20px 10px 0 round 100px);
+        border: 2px solid black;
+        border-radius: 10px;
+        
+        background-color: white;
+}
+       
+    
+.shape2 {
+    float: center;
+    width: auto;
+    height: 10px;
+    shape-outside: inset(100px 200px 100px 0 round 10px);
+    border: 2px solid black;
+    border-radius: 10px;
+    
+    background-color: cadetblue;
+}
+.nom {
+    font-size: 2em;
+    
+    
+    
+    
+    color: black;
+
+
+
+} 
+nav {
+    background-color: white;
+    
+    
+    
+}
+li {
+    line-height: 200%;
+}
+    
