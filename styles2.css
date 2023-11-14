@@ -4,10 +4,11 @@
     
     border: 2px solid black ;
     padding: 20px;
-    padding-top : 15px;
+    padding-top : 1%;
+    margin-right: 2%;
    
-    height: 60%;
-    width: 35%;
+    height: auto;
+    width: 60%;
     background-color: rgb(255, 255, 255);
    
     color: cadetblue
@@ -22,8 +23,8 @@ section {
     
     color: white;
     
-    height: 60%;
-    width: 20%;
+    height: auto;
+    width: 40%;
     background-color: cadetblue;
     margin-left: 2%;
    
@@ -44,7 +45,7 @@ html {
     height: 100%;
 }
 header {
-    
+    margin: 2%;
     display: flex;
     flex-direction: column;
     width: auto;
@@ -87,8 +88,8 @@ h1 {
 }
 .nom {
     font-size: 2em;
-    margin-right: auto;
-    margin-left: 2%;
+    
+    
     
     
     color: black;
