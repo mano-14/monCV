@@ -15,7 +15,7 @@ h1 {
     margin-right: auto;
 }
 body {
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 } 
     
 
@@ -32,7 +32,8 @@ main {
     
 }
 #motiv {
-    width: 15%;
+    padding: 15px;
+    width: auto;
     text-align: center;
     border: 4px solid black ;
     border-radius: 20px; 
@@ -40,7 +41,8 @@ main {
     margin-left: 2%;
 }
 #CV {
-    width: 5%;
+    padding: 15px;
+    width: auto;
     text-align: center;
     border: 4px solid black;
     border-radius: 20px;
@@ -53,16 +55,17 @@ nav {
     margin-right: 3%;
 
     margin-top: 2%;
-    font-size: 2.5em;
+    font-size: 2em;
     
 }
-div {
+#mano {
     margin-top: 2%;
     display: flex;
     flex-direction: row-reverse;
 }
 #Convention {
-    width: 10%;
+    padding: 15px;
+    width: auto;
     margin-left: 2%;
     
     text-align: center;
@@ -74,4 +77,10 @@ div {
 
 a {
     color: black
+}
+h2 {
+    align-items: center;
+    padding-left: auto;
+    padding-right: auto;
+    
 }
