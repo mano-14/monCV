@@ -1,13 +1,10 @@
 h1 {
-    color:blue
+    color:black
 }
-body {
-    color:rgb(105, 36, 36)
-}
-
 
 html {
-    background-color:darksalmon
+    background: linear-gradient(145deg , green, rgb(201, 201, 201));
+    height: 100%;
 }
 header {
     display: flex;
@@ -17,13 +14,17 @@ h1 {
     margin-left: auto;
     margin-right: auto;
 }
-    
+body {
+    font-family:'Courier New', Courier, monospace;
+} 
     
 
     
 
 
 main {
+    
+    
     margin-top: 5%;
     display: flex;
     flex-direction: row;
@@ -31,10 +32,46 @@ main {
     
 }
 #motiv {
-    background-color: aqua;
+    width: 15%;
+    text-align: center;
+    border: 4px solid black ;
+    border-radius: 20px; 
+    background-color: gray;
     margin-left: 2%;
 }
 #CV {
-    background-color:aquamarine
+    width: 5%;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 20px;
+    background-color:gray
+}
+nav {
+
+    color: #000;
+    margin-left: 3%;
+    margin-right: 3%;
+
+    margin-top: 2%;
+    font-size: 2.5em;
+    
+}
+div {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#Convention {
+    width: 10%;
+    margin-left: 2%;
+    
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 20px;
+    background-color:gray
+
 }
 
+a {
+    color: black
+}
