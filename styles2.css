@@ -2,7 +2,7 @@
     
     
     
-    border: 2px solid black ;
+    
     padding: 20px;
     padding-top : 1%;
     margin-right: 2%;
@@ -15,9 +15,12 @@
     
 
 }
+#gauche {
+    border: 2px solid black;
+}
 section {
     
-    border: 2px solid black ;
+    
     padding: 20px;
     padding-top : 15px;
     
@@ -67,7 +70,7 @@ h1 {
 
 .shape {
         float: center;
-        width: auto;
+        width: 75%;
         height: 10px;
         shape-outside: inset(100px 20px 10px 0 round 100px);
         border: 2px solid black;
